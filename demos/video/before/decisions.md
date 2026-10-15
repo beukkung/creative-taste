@@ -25,4 +25,3 @@ Inspected the supplied-source contact sheets before selecting ranges. Inspected 
 Footage supplied in demos/assets/coffee-source.mp4. Its embedded original end card credits © 2017 Lev Lazinskiy, with music credited to Just Watching by Podington Bear / soundofpicture.com. This edit uses the supplied silent picture only; none of that music is included. Attribution is retained here separately from the story. No claim of a real Thai venue.
 
 Timing in run.json is a documented lower bound from the first working artifact timestamp; initial brief read/tool discovery preceded it. Render timing is recorded separately.
-

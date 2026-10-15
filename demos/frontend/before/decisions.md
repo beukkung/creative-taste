@@ -17,4 +17,3 @@ Skills read: frontend-app-builder; frontend-design. The photo-only supplied-asse
 ## Verification and one repair pass
 
 Inspected desktop/mobile first view and full pages. Checked Thai copy hierarchy, lavender/paper palette, arched hero crop, menu row alignment, downstream image ratios, mobile reflow and footer hours. Above-fold content matches the written direction and approved brief facts; no new factual claims added. One repair pass restored CSS aspect-ratio crops via image height:auto and clipped the skip link until keyboard focus. Final keyboard, anchor, image, reduced-motion and overflow checks pass. The implemented direction was visually verified; there is no generated accepted-concept image to claim fidelity against. Supplied photos retain their source softness at larger sizes.
-
