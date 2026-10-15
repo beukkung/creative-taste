@@ -1,0 +1,85 @@
+{
+  "task": "Voiceover music bed",
+  "condition": "before",
+  "start_utc": "2026-10-15T05:31:11+00:00",
+  "end_utc": "2026-10-15T05:35:31.687733+00:00",
+  "elapsed_seconds": 260.688,
+  "repair_passes": 1,
+  "initial_implementations": 1,
+  "skills_actually_read": [],
+  "actual_listening": false,
+  "listening_status": "No auditory playback-to-model verification occurred",
+  "source": "compose.py",
+  "deliverables": [
+    "music.wav",
+    "mix.wav",
+    "compose.py",
+    "decisions.md",
+    "audio_checks.json",
+    "run.json"
+  ],
+  "checks": {
+    "music": {
+      "frames": 960000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 20.0,
+      "sample_peak_dbfs": -6.552742162759795,
+      "rms_dbfs": -23.499999999870038,
+      "stereo_correlation": 0.9845950600366987,
+      "dc_offset": -2.3981548530826226e-07,
+      "first_10ms_peak": 0.028022991982604516,
+      "last_10ms_peak": 1.889197903416289e-07,
+      "clipped_samples": 0,
+      "finite": true
+    },
+    "composition": {
+      "tempo_bpm": 72,
+      "meter": "4/4",
+      "bars": 6,
+      "key": "D major",
+      "seed": 16872
+    },
+    "narration_available": true,
+    "mix": {
+      "frames": 960000,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 20.0,
+      "sample_peak_dbfs": -3.186844901769839,
+      "rms_dbfs": -21.211483634531763,
+      "stereo_correlation": 0.9975674015337057,
+      "dc_offset": -5.332866671529872e-05,
+      "first_10ms_peak": 0.017239195801443973,
+      "last_10ms_peak": 1.262633927831656e-07,
+      "clipped_samples": 0,
+      "finite": true
+    },
+    "narration_duration_seconds": 20.0,
+    "narration_gain_db": 1.3041540729747974,
+    "bed_gain_db_range": [
+      -7.5,
+      -3.5
+    ]
+  },
+  "exported_file_checks": {
+    "music": {
+      "integrated_lufs": -21.3,
+      "true_peak_dbtp": -6.6
+    },
+    "mix": {
+      "integrated_lufs": -17.8,
+      "true_peak_dbtp": -3.2
+    },
+    "format": "48000 Hz stereo signed 16-bit PCM",
+    "frames_each": 960000,
+    "narration_last_sample_above_minus50_dbfs_seconds": 14.2251875,
+    "narration_last_100ms_peak": 0
+  },
+  "repair_reason": "scipy.signal import stalled; replaced signal filtering and envelope smoothing with NumPy FFT and cumulative sums",
+  "limitations": [
+    "No subjective listening; perceived balance and musical quality unverified",
+    "Narration is common synthetic test recording; source file not modified"
+  ],
+  "other_conditions_inspected": false
+}

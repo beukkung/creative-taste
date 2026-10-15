@@ -1,0 +1,44 @@
+{
+  "music": {
+    "frames": 960000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 20.0,
+    "sample_peak_dbfs": -6.552742162759795,
+    "rms_dbfs": -23.499999999870038,
+    "stereo_correlation": 0.9845950600366987,
+    "dc_offset": -2.3981548530826226e-07,
+    "first_10ms_peak": 0.028022991982604516,
+    "last_10ms_peak": 1.889197903416289e-07,
+    "clipped_samples": 0,
+    "finite": true
+  },
+  "composition": {
+    "tempo_bpm": 72,
+    "meter": "4/4",
+    "bars": 6,
+    "key": "D major",
+    "seed": 16872
+  },
+  "narration_available": true,
+  "mix": {
+    "frames": 960000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 20.0,
+    "sample_peak_dbfs": -3.0529483654138714,
+    "rms_dbfs": -21.060639808709137,
+    "stereo_correlation": 0.9976367393575881,
+    "dc_offset": 0.0007186617724123593,
+    "first_10ms_peak": 0.012374481242280562,
+    "last_10ms_peak": 1.262633927831656e-07,
+    "clipped_samples": 0,
+    "finite": true
+  },
+  "narration_duration_seconds": 20.0,
+  "narration_gain_db": 3.436103142135259,
+  "bed_gain_db_range": [
+    -7.5,
+    -3.5
+  ]
+}

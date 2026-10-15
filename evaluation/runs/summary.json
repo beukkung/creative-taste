@@ -1,0 +1,484 @@
+{
+  "runs": [
+    {
+      "domain": "frontend",
+      "condition": "before",
+      "run": {
+        "status": "complete",
+        "start_utc": "2026-10-15T05:31:21.3281424+00:00",
+        "end_utc": "2026-10-15T05:37:38.7445574+00:00",
+        "elapsed_seconds": 377.416,
+        "initial_implementations": 1,
+        "verification_passes": 1,
+        "repair_passes": 1,
+        "skills_read": [
+          "frontend-app-builder",
+          "frontend-design"
+        ],
+        "concept_reference": "decisions.md (written direction; supplied-photo and budget constraints)",
+        "browser": "Python Playwright, existing Chromium headless shell 1234",
+        "browser_fallback_reason": "Browser plugin unavailable in assigned task; full Chromium startup stalled; existing headless shell worked",
+        "checks_file": "checks.json",
+        "proof": [
+          "desktop.png",
+          "mobile.png",
+          "desktop-full.png",
+          "mobile-full.png"
+        ],
+        "repairs": [
+          "Added image height:auto so downstream aspect-ratio crops apply despite HTML height attributes",
+          "Clipped skip link while unfocused to avoid full-page capture artifact while preserving keyboard focus"
+        ],
+        "checks": [
+          "1440x1000 desktop screenshot visually inspected",
+          "390x844 mobile screenshot visually inspected",
+          "All four local image assets load",
+          "No horizontal overflow at 1440, 390, 320 or 720px",
+          "Menu and opening-hours anchors work",
+          "All internal anchors have destinations",
+          "Keyboard skip link focus and destination work",
+          "Reduced motion changes scroll behavior to auto",
+          "No page errors",
+          "Full desktop and mobile page visually inspected"
+        ],
+        "observed_strengths": [
+          "Restrained lavender and coffee-ink palette",
+          "Clear Thai headline and singular primary action",
+          "Consistent open price rows",
+          "Four supplied images used with controlled crops",
+          "Mobile content remains readable without horizontal scroll"
+        ],
+        "observed_limits": [
+          "Supplied footage frames are low resolution and visibly soft when enlarged",
+          "System Thai font appearance can differ by operating system",
+          "720px check approximates 200 percent desktop zoom; browser zoom itself not exercised"
+        ],
+        "outside_output_inspected": false
+      }
+    },
+    {
+      "domain": "frontend",
+      "condition": "after",
+      "run": {
+        "condition": "after",
+        "medium": "frontend",
+        "start_utc": "2026-10-15T05:40:41.635781Z",
+        "end_utc": "2026-10-15T05:44:18.146133Z",
+        "elapsed_seconds": 216.51,
+        "timing_note": "Start is the first explicitly captured UTC clock reading; the initial brief and creative-taste skill read immediately preceded this reading by approximately 15 seconds. No precise earlier timestamp was captured.",
+        "repair_passes": 1,
+        "repair_details": [
+          "Corrected the verification-only HTTP server asset-root mapping after initial screenshot inspection. No delivered HTML visual repair was required."
+        ],
+        "skills_actually_read": [
+          "outputs/creative-taste/skills/creative-taste/SKILL.md",
+          "outputs/creative-taste/skills/creative-taste/references/frontend.md",
+          "outputs/creative-taste/skills/creative-taste/references/reference-analysis.md",
+          "frontend-design-premium/1.4.0/skills/frontend-design/SKILL.md",
+          "frontend-design-premium/1.4.0/skills/frontend-design-premium/SKILL.md",
+          "frontend-design-premium/1.4.0/skills/frontend-design-premium/references/verification-checklist.md"
+        ],
+        "checks": [
+          "Chromium via existing Playwright; final-relative-path HTTP server",
+          "Viewed desktop.png 1440x1000 and mobile.png 390x844",
+          "Viewed own desktop-full.png and mobile-full.png",
+          "All four local photos complete with naturalWidth > 0",
+          "No horizontal overflow at 1440,390,720 CSS pixels; 720 is 200-percent desktop reflow equivalent",
+          "No console errors, uncaught page errors or failed requests in final verification",
+          "All internal href destinations exist",
+          "Keyboard Tab reaches visible skip link; Enter navigates to #main",
+          "Primary coffee link navigates to #menu with section visible",
+          "Reduced-motion emulation resolves scroll-behavior to auto",
+          "Static Thai lang, demo footer, all four local asset references and no remote font/library references checked"
+        ],
+        "artifacts": [
+          "index.html",
+          "decisions.md",
+          "desktop.png",
+          "mobile.png",
+          "desktop-full.png",
+          "mobile-full.png",
+          "checks.json",
+          "verify.cjs"
+        ],
+        "limits": [
+          "Automated and visual Chromium inspection only; no screen-reader or physical mobile device testing.",
+          "The 200-percent check uses equivalent 720px CSS reflow, not browser-chrome zoom."
+        ]
+      }
+    },
+    {
+      "domain": "music",
+      "condition": "before",
+      "run": {
+        "task": "Voiceover music bed",
+        "condition": "before",
+        "start_utc": "2026-10-15T05:31:11+00:00",
+        "end_utc": "2026-10-15T05:35:31.687733+00:00",
+        "elapsed_seconds": 260.688,
+        "repair_passes": 1,
+        "initial_implementations": 1,
+        "skills_actually_read": [],
+        "actual_listening": false,
+        "listening_status": "No auditory playback-to-model verification occurred",
+        "source": "compose.py",
+        "deliverables": [
+          "music.wav",
+          "mix.wav",
+          "compose.py",
+          "decisions.md",
+          "audio_checks.json",
+          "run.json"
+        ],
+        "checks": {
+          "music": {
+            "frames": 960000,
+            "sample_rate": 48000,
+            "channels": 2,
+            "duration_seconds": 20.0,
+            "sample_peak_dbfs": -6.552742162759795,
+            "rms_dbfs": -23.499999999870038,
+            "stereo_correlation": 0.9845950600366987,
+            "dc_offset": -2.3981548530826226e-07,
+            "first_10ms_peak": 0.028022991982604516,
+            "last_10ms_peak": 1.889197903416289e-07,
+            "clipped_samples": 0,
+            "finite": true
+          },
+          "composition": {
+            "tempo_bpm": 72,
+            "meter": "4/4",
+            "bars": 6,
+            "key": "D major",
+            "seed": 16872
+          },
+          "narration_available": true,
+          "mix": {
+            "frames": 960000,
+            "sample_rate": 48000,
+            "channels": 2,
+            "duration_seconds": 20.0,
+            "sample_peak_dbfs": -3.186844901769839,
+            "rms_dbfs": -21.211483634531763,
+            "stereo_correlation": 0.9975674015337057,
+            "dc_offset": -5.332866671529872e-05,
+            "first_10ms_peak": 0.017239195801443973,
+            "last_10ms_peak": 1.262633927831656e-07,
+            "clipped_samples": 0,
+            "finite": true
+          },
+          "narration_duration_seconds": 20.0,
+          "narration_gain_db": 1.3041540729747974,
+          "bed_gain_db_range": [
+            -7.5,
+            -3.5
+          ]
+        },
+        "exported_file_checks": {
+          "music": {
+            "integrated_lufs": -21.3,
+            "true_peak_dbtp": -6.6
+          },
+          "mix": {
+            "integrated_lufs": -17.8,
+            "true_peak_dbtp": -3.2
+          },
+          "format": "48000 Hz stereo signed 16-bit PCM",
+          "frames_each": 960000,
+          "narration_last_sample_above_minus50_dbfs_seconds": 14.2251875,
+          "narration_last_100ms_peak": 0
+        },
+        "repair_reason": "scipy.signal import stalled; replaced signal filtering and envelope smoothing with NumPy FFT and cumulative sums",
+        "limitations": [
+          "No subjective listening; perceived balance and musical quality unverified",
+          "Narration is common synthetic test recording; source file not modified"
+        ],
+        "other_conditions_inspected": false
+      }
+    },
+    {
+      "domain": "music",
+      "condition": "after",
+      "run": {
+        "task": "Original voiceover music bed",
+        "condition": "after",
+        "start_utc": "2026-10-15T05:40:49.075556+00:00",
+        "end_utc": "2026-10-15T05:45:33.647777+00:00",
+        "elapsed_seconds": 284.572,
+        "elapsed_scope": "Whole measured task from first captured UTC through final documentation, including stalled import and repair. Brief and skill reads before first timestamp were not timed and are excluded; no exact earlier timestamp is available.",
+        "budget_minutes": {
+          "target": 15,
+          "cap": 20
+        },
+        "implementation_passes": 1,
+        "repair_passes": 1,
+        "repair_reason": "scipy.signal import stalled; replaced with installed NumPy FFT filters, moving averages and FFT oversampling. No musical rewrite or additional polish pass.",
+        "skills_actually_read": [
+          "outputs/creative-taste/skills/creative-taste/SKILL.md",
+          "outputs/creative-taste/skills/creative-taste/references/music.md"
+        ],
+        "tools": [
+          "Python 3.11",
+          "NumPy",
+          "standard-library wave",
+          "FFmpeg EBU R128"
+        ],
+        "listening": {
+          "actual_listening": false,
+          "route": "None. Objective PCM analysis and FFmpeg loudness analysis only.",
+          "subjective_status": "Unverified by listening"
+        },
+        "source_narration_modified": false,
+        "deliverables": [
+          "compose.py",
+          "music.wav",
+          "mix.wav",
+          "decisions.md",
+          "audio-checks.json",
+          "run.json"
+        ],
+        "render_exit_code": 0,
+        "other_conditions_inspected": false
+      }
+    },
+    {
+      "domain": "motion",
+      "condition": "before",
+      "run": {
+        "repair_passes": 0,
+        "frames": 192,
+        "duration_seconds": 8,
+        "fps": 24,
+        "resolution": [
+          720,
+          1280
+        ],
+        "skills_read": [
+          "superpowers:using-superpowers (subagent exemption)",
+          "remotion:remotion-markup (not applied; Python brief)"
+        ],
+        "checks": [
+          "HarfBuzz Thai shaping with FreeType rasterization",
+          "192 deterministic frames encoded",
+          "Inspected own contact sheet, full-size poster, and text crop",
+          "FFprobe verified codec, pixel format, dimensions, frame rate, frame count, exact duration"
+        ],
+        "playback_status": "not played; sampled frames inspected separately",
+        "listening_status": "silent brief; no audio stream",
+        "render_started_utc": "2026-10-15T05:33:17.201336+00:00",
+        "render_finished_utc": "2026-10-15T05:33:18.659420+00:00",
+        "render_elapsed_seconds": 1.454,
+        "started_utc": null,
+        "earliest_recorded_task_artifact_utc": "2026-10-15T05:31:46.386862+00:00",
+        "finished_utc": "2026-10-15T05:37:45.248772+00:00",
+        "elapsed_seconds": 358.862,
+        "elapsed_is_lower_bound": true,
+        "elapsed_scope": "Lower bound from shared task first contact-sheet creation through final verification and documentation. Exact task start before first artifact is unknown. Both briefs were produced in the same working session."
+      }
+    },
+    {
+      "domain": "motion",
+      "condition": "after",
+      "run": {
+        "condition": "after",
+        "medium": "motion",
+        "shared_production_session": "motion+video",
+        "whole_task_start_utc": null,
+        "whole_task_end_utc": "2026-10-15T05:46:52.991787+00:00",
+        "elapsed_seconds": null,
+        "first_observed_timestamp_utc": "2026-10-15T05:41:21.075804+00:00",
+        "production_elapsed_seconds_lower_bound": 331.915983,
+        "timing_note": "Initial brief/skill reads occurred before first retained clock timestamp; exact task start and whole-task elapsed are unavailable. Same observed session window covers both media; do not attribute its entirety independently to each medium.",
+        "render_seconds_final": 1.1655742999937502,
+        "render_time_note": "Final successful render only; earlier video render durations were overwritten. Motion rendered once; video rendered initially plus two repair renders. A stalled SciPy import was abandoned before initial video render.",
+        "repair_passes": 0,
+        "budget_exception": false,
+        "skills_read": [
+          "skills/creative-taste/SKILL.md",
+          "skills/creative-taste/references/motion.md",
+          "skills/creative-taste/references/video.md",
+          "skills/creative-taste/references/reference-analysis.md",
+          "installed remotion-best-practices/SKILL.md and remotion-create/REFERENCE.md (read; renderer instructions not applicable to required Python/FFmpeg implementation)"
+        ],
+        "tools": [
+          "Python",
+          "Pillow",
+          "NumPy",
+          "uharfbuzz",
+          "freetype",
+          "FFmpeg",
+          "FFprobe"
+        ],
+        "thai_renderer": "HarfBuzz shapes Tahoma; FreeType rasterizes positioned glyphs. System font referenced only; not redistributed.",
+        "checks": {
+          "width": 720,
+          "height": 1280,
+          "fps": 24,
+          "duration": 8,
+          "frames": 192,
+          "video_codec": "h264",
+          "pixel_format": "yuv420p",
+          "audio": "absent",
+          "full_decode": "passed ffmpeg -v error -f null with no errors",
+          "visual_inspection": "poster, selected exported frames and contact sheet inspected; final video source crop and last frame inspected",
+          "full_playback": false,
+          "listening": false
+        },
+        "inspection_timepoints_seconds": [
+          0,
+          0.6,
+          2.35,
+          2.5,
+          3,
+          5.3,
+          5.65,
+          6.2,
+          7.958
+        ],
+        "dependencies": [
+          "Python 3",
+          "Pillow",
+          "NumPy",
+          "uharfbuzz",
+          "freetype-py",
+          "FFmpeg and FFprobe on PATH",
+          "Windows Tahoma at C:/Windows/Fonts/tahoma.ttf"
+        ],
+        "reproduce": "python source.py",
+        "source_asset_relative": null
+      }
+    },
+    {
+      "domain": "video",
+      "condition": "before",
+      "run": {
+        "repair_passes": 1,
+        "frames": 480,
+        "duration_seconds": 20,
+        "fps": 24,
+        "resolution": [
+          720,
+          1280
+        ],
+        "skills_read": [
+          "superpowers:using-superpowers (subagent exemption)",
+          "remotion:remotion-markup (not applied; Python brief)"
+        ],
+        "checks": [
+          "HarfBuzz Thai shaping with FreeType rasterization",
+          "480 deterministic frames encoded",
+          "Inspected own contact sheet, full-size poster, and text crop",
+          "FFprobe verified codec, pixel format, dimensions, frame rate, frame count, exact duration",
+          "Full FFmpeg audiovisual decode completed without errors; AAC stereo 48kHz"
+        ],
+        "audio": {
+          "sample_peak": 0.08470199296796613,
+          "rms": 0.022460955179947107,
+          "sample_rate": 48000,
+          "provenance": "original procedural oscillators and seeded filtered noise"
+        },
+        "playback_status": "not played; sampled frames inspected separately",
+        "listening_status": "not listened; procedural audio measured numerically",
+        "render_started_utc": "2026-10-15T05:36:38.106542+00:00",
+        "render_finished_utc": "2026-10-15T05:36:47.854690+00:00",
+        "render_elapsed_seconds": 9.75,
+        "started_utc": null,
+        "earliest_recorded_task_artifact_utc": "2026-10-15T05:31:46.386862+00:00",
+        "finished_utc": "2026-10-15T05:37:45.256629+00:00",
+        "elapsed_seconds": 358.87,
+        "elapsed_is_lower_bound": true,
+        "elapsed_scope": "Lower bound from shared task first contact-sheet creation through final verification and documentation. Exact task start before first artifact is unknown. Both briefs were produced in the same working session."
+      }
+    },
+    {
+      "domain": "video",
+      "condition": "after",
+      "run": {
+        "condition": "after",
+        "medium": "video",
+        "shared_production_session": "motion+video",
+        "whole_task_start_utc": null,
+        "whole_task_end_utc": "2026-10-15T05:46:52.991787+00:00",
+        "elapsed_seconds": null,
+        "first_observed_timestamp_utc": "2026-10-15T05:41:21.075804+00:00",
+        "production_elapsed_seconds_lower_bound": 331.915983,
+        "timing_note": "Initial brief/skill reads occurred before first retained clock timestamp; exact task start and whole-task elapsed are unavailable. Same observed session window covers both media; do not attribute its entirety independently to each medium.",
+        "render_seconds_final": 5.138516899998649,
+        "render_time_note": "Final successful render only; earlier video render durations were overwritten. Motion rendered once; video rendered initially plus two repair renders. A stalled SciPy import was abandoned before initial video render.",
+        "repair_passes": 2,
+        "budget_exception": true,
+        "skills_read": [
+          "skills/creative-taste/SKILL.md",
+          "skills/creative-taste/references/motion.md",
+          "skills/creative-taste/references/video.md",
+          "skills/creative-taste/references/reference-analysis.md",
+          "installed remotion-best-practices/SKILL.md and remotion-create/REFERENCE.md (read; renderer instructions not applicable to required Python/FFmpeg implementation)"
+        ],
+        "tools": [
+          "Python",
+          "Pillow",
+          "NumPy",
+          "uharfbuzz",
+          "freetype",
+          "FFmpeg",
+          "FFprobe"
+        ],
+        "thai_renderer": "HarfBuzz shapes Tahoma; FreeType rasterizes positioned glyphs. System font referenced only; not redistributed.",
+        "checks": {
+          "width": 720,
+          "height": 1280,
+          "fps": 24,
+          "duration": 20,
+          "frames": 480,
+          "video_codec": "h264",
+          "pixel_format": "yuv420p",
+          "audio": "AAC stereo 48000 Hz",
+          "full_decode": "passed ffmpeg -v error -f null with no errors",
+          "visual_inspection": "poster, selected exported frames and contact sheet inspected; final video source crop and last frame inspected",
+          "full_playback": false,
+          "listening": false
+        },
+        "inspection_timepoints_seconds": [
+          0,
+          3.958,
+          4,
+          7.958,
+          8,
+          10.5,
+          12.958,
+          13,
+          15.958,
+          16,
+          18.5,
+          19.958
+        ],
+        "dependencies": [
+          "Python 3",
+          "Pillow",
+          "NumPy",
+          "uharfbuzz",
+          "freetype-py",
+          "FFmpeg and FFprobe on PATH",
+          "Windows Tahoma at C:/Windows/Fonts/tahoma.ttf"
+        ],
+        "reproduce": "python source.py",
+        "source_asset_relative": "../../assets/coffee-source.mp4",
+        "audio_measurements_unencoded": {
+          "peak_dbfs": -15.223021537290764,
+          "rms_dbfs": -43.16263053520012
+        },
+        "budget_exception_detail": "Two video verification/repair cycles exceeded the requested single repair pass. First removed source end credits; second removed an internal source shot change before bloom. No further iteration."
+      }
+    }
+  ],
+  "model_control": "Same parent-inherited worker configuration; per-worker model identifier not independently attested",
+  "known_deviations": [
+    "Baseline temporal tasks share one timing lower bound; treated temporal tasks also share one lower bound",
+    "Some timing starts follow brief/skill reading; not speed benchmarks",
+    "Narration became available during baseline music production",
+    "Video after used two repair passes; before used one",
+    "Existing production skills differ between runs",
+    "Input hashes were recorded after baseline began, before treated runs",
+    "Release integration replaced service speech with local eSpeak NG Thai at matched phrase windows and regenerated both mixes; instrumental WAVs unchanged"
+  ]
+}

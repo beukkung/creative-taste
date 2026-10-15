@@ -1,0 +1,68 @@
+{
+  "condition": "after",
+  "medium": "motion",
+  "shared_production_session": "motion+video",
+  "whole_task_start_utc": null,
+  "whole_task_end_utc": "2026-10-15T05:46:52.991787+00:00",
+  "elapsed_seconds": null,
+  "first_observed_timestamp_utc": "2026-10-15T05:41:21.075804+00:00",
+  "production_elapsed_seconds_lower_bound": 331.915983,
+  "timing_note": "Initial brief/skill reads occurred before first retained clock timestamp; exact task start and whole-task elapsed are unavailable. Same observed session window covers both media; do not attribute its entirety independently to each medium.",
+  "render_seconds_final": 1.1655742999937502,
+  "render_time_note": "Final successful render only; earlier video render durations were overwritten. Motion rendered once; video rendered initially plus two repair renders. A stalled SciPy import was abandoned before initial video render.",
+  "repair_passes": 0,
+  "budget_exception": false,
+  "skills_read": [
+    "skills/creative-taste/SKILL.md",
+    "skills/creative-taste/references/motion.md",
+    "skills/creative-taste/references/video.md",
+    "skills/creative-taste/references/reference-analysis.md",
+    "installed remotion-best-practices/SKILL.md and remotion-create/REFERENCE.md (read; renderer instructions not applicable to required Python/FFmpeg implementation)"
+  ],
+  "tools": [
+    "Python",
+    "Pillow",
+    "NumPy",
+    "uharfbuzz",
+    "freetype",
+    "FFmpeg",
+    "FFprobe"
+  ],
+  "thai_renderer": "HarfBuzz shapes Tahoma; FreeType rasterizes positioned glyphs. System font referenced only; not redistributed.",
+  "checks": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "duration": 8,
+    "frames": 192,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "absent",
+    "full_decode": "passed ffmpeg -v error -f null with no errors",
+    "visual_inspection": "poster, selected exported frames and contact sheet inspected; final video source crop and last frame inspected",
+    "full_playback": false,
+    "listening": false
+  },
+  "inspection_timepoints_seconds": [
+    0,
+    0.6,
+    2.35,
+    2.5,
+    3,
+    5.3,
+    5.65,
+    6.2,
+    7.958
+  ],
+  "dependencies": [
+    "Python 3",
+    "Pillow",
+    "NumPy",
+    "uharfbuzz",
+    "freetype-py",
+    "FFmpeg and FFprobe on PATH",
+    "Windows Tahoma at C:/Windows/Fonts/tahoma.ttf"
+  ],
+  "reproduce": "python source.py",
+  "source_asset_relative": null
+}

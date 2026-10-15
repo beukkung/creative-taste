@@ -1,0 +1,47 @@
+{
+  "condition": "after",
+  "medium": "frontend",
+  "start_utc": "2026-10-15T05:40:41.635781Z",
+  "end_utc": "2026-10-15T05:44:18.146133Z",
+  "elapsed_seconds": 216.51,
+  "timing_note": "Start is the first explicitly captured UTC clock reading; the initial brief and creative-taste skill read immediately preceded this reading by approximately 15 seconds. No precise earlier timestamp was captured.",
+  "repair_passes": 1,
+  "repair_details": [
+    "Corrected the verification-only HTTP server asset-root mapping after initial screenshot inspection. No delivered HTML visual repair was required."
+  ],
+  "skills_actually_read": [
+    "outputs/creative-taste/skills/creative-taste/SKILL.md",
+    "outputs/creative-taste/skills/creative-taste/references/frontend.md",
+    "outputs/creative-taste/skills/creative-taste/references/reference-analysis.md",
+    "frontend-design-premium/1.4.0/skills/frontend-design/SKILL.md",
+    "frontend-design-premium/1.4.0/skills/frontend-design-premium/SKILL.md",
+    "frontend-design-premium/1.4.0/skills/frontend-design-premium/references/verification-checklist.md"
+  ],
+  "checks": [
+    "Chromium via existing Playwright; final-relative-path HTTP server",
+    "Viewed desktop.png 1440x1000 and mobile.png 390x844",
+    "Viewed own desktop-full.png and mobile-full.png",
+    "All four local photos complete with naturalWidth > 0",
+    "No horizontal overflow at 1440,390,720 CSS pixels; 720 is 200-percent desktop reflow equivalent",
+    "No console errors, uncaught page errors or failed requests in final verification",
+    "All internal href destinations exist",
+    "Keyboard Tab reaches visible skip link; Enter navigates to #main",
+    "Primary coffee link navigates to #menu with section visible",
+    "Reduced-motion emulation resolves scroll-behavior to auto",
+    "Static Thai lang, demo footer, all four local asset references and no remote font/library references checked"
+  ],
+  "artifacts": [
+    "index.html",
+    "decisions.md",
+    "desktop.png",
+    "mobile.png",
+    "desktop-full.png",
+    "mobile-full.png",
+    "checks.json",
+    "verify.cjs"
+  ],
+  "limits": [
+    "Automated and visual Chromium inspection only; no screen-reader or physical mobile device testing.",
+    "The 200-percent check uses equivalent 720px CSS reflow, not browser-chrome zoom."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-15T06:02:39.512490+00:00",
+  "method": "constant gain, then identical MP3 codec/bitrate; original WAVs unchanged",
+  "files": [
+    {
+      "path": "demos/music/before/music-preview.mp3",
+      "source_lufs": -21.47,
+      "gain_db": -0.09,
+      "target_lufs": -22.0,
+      "preview_lufs": -22.0,
+      "preview_true_peak_dbtp": -7.09
+    },
+    {
+      "path": "demos/music/before/mix-preview.mp3",
+      "source_lufs": -17.71,
+      "gain_db": -1.84,
+      "target_lufs": -20.0,
+      "preview_lufs": -19.99,
+      "preview_true_peak_dbtp": -5.33
+    },
+    {
+      "path": "demos/music/after/music-preview.mp3",
+      "source_lufs": -17.78,
+      "gain_db": -3.77,
+      "target_lufs": -22.0,
+      "preview_lufs": -22.0,
+      "preview_true_peak_dbtp": -8.32
+    },
+    {
+      "path": "demos/music/after/mix-preview.mp3",
+      "source_lufs": -21.15,
+      "gain_db": 1.6,
+      "target_lufs": -20.0,
+      "preview_lufs": -20.0,
+      "preview_true_peak_dbtp": -5.12
+    }
+  ]
+}

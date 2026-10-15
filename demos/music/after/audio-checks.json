@@ -1,0 +1,170 @@
+{
+  "composition": {
+    "duration_seconds": 20,
+    "tempo_bpm": 72,
+    "meter": "4/4",
+    "bars": 6,
+    "tonic": "D major",
+    "motif_events": [
+      {
+        "time_seconds": 0.22,
+        "midi": 78,
+        "velocity": 0.28,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 0.72,
+        "midi": 76,
+        "velocity": 0.2,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 3.48,
+        "midi": 78,
+        "velocity": 0.39,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 3.77,
+        "midi": 74,
+        "velocity": 0.31,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 8.08,
+        "midi": 78,
+        "velocity": 0.37,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 8.38,
+        "midi": 76,
+        "velocity": 0.28,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 11.27,
+        "midi": 74,
+        "velocity": 0.25,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 14.45,
+        "midi": 78,
+        "velocity": 0.48,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 14.87,
+        "midi": 76,
+        "velocity": 0.36,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 15.29,
+        "midi": 74,
+        "velocity": 0.43,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 15.91,
+        "midi": 76,
+        "velocity": 0.3,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 16.76,
+        "midi": 78,
+        "velocity": 0.43,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 17.38,
+        "midi": 76,
+        "velocity": 0.32,
+        "role": "motif"
+      },
+      {
+        "time_seconds": 17.8,
+        "midi": 74,
+        "velocity": 0.47,
+        "role": "motif"
+      }
+    ]
+  },
+  "source": "Original deterministic additive/subtractive synthesis; no prerecorded music.",
+  "narration": {
+    "sha256": "31287a1170a0b3b5638d908577f9cc3775f3329c1f0b27922180494b7a97d26b",
+    "gain": 1.0,
+    "timing_shift_samples": 0,
+    "unchanged_input": true,
+    "speech_windows_seconds": [
+      [
+        0,
+        3.4
+      ],
+      [
+        3.9,
+        7.9
+      ],
+      [
+        8.7,
+        11.2
+      ],
+      [
+        11.6,
+        14.2
+      ]
+    ],
+    "music_gain_active_speech": 0.23,
+    "music_gain_gaps": 0.38
+  },
+  "music.wav": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "frames": 960000,
+    "duration_seconds": 20.0,
+    "finite": true,
+    "peak_dbfs": -4.108734709605284,
+    "true_peak_4x_dbfs": -4.107793341570381,
+    "rms_dbfs": -19.57647827955673,
+    "clipped_samples": 0,
+    "stereo_correlation": 0.9397646607644863,
+    "mono_vs_stereo_rms_db": -0.13332039476779556,
+    "first_sample": [
+      0.0,
+      0.0
+    ],
+    "last_sample": [
+      0.0,
+      0.0
+    ],
+    "last_100ms_rms": 0.00015480089759406764,
+    "ffmpeg_ebur128_summary": "Summary:\n\n  Integrated loudness:\n    I:         -17.9 LUFS\n    Threshold: -28.1 LUFS\n\n  Loudness range:\n    LRA:         4.7 LU\n    Threshold: -38.0 LUFS\n    LRA low:   -20.2 LUFS\n    LRA high:  -15.4 LUFS\n\n  True peak:\n    Peak:       -4.1 dBFS\n[out#0/null @ 00000182a771ff00] video:0KiB audio:3750KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:20.00 bitrate=N/A speed= 351x elapsed=0:00:00.05"
+  },
+  "mix.wav": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "frames": 960000,
+    "duration_seconds": 20.0,
+    "finite": true,
+    "peak_dbfs": -6.269591852213381,
+    "true_peak_4x_dbfs": -6.269592157387027,
+    "rms_dbfs": -23.816278023354233,
+    "clipped_samples": 0,
+    "stereo_correlation": 0.9844731675348442,
+    "mono_vs_stereo_rms_db": -0.03391452564806818,
+    "first_sample": [
+      0.0,
+      0.0
+    ],
+    "last_sample": [
+      0.0,
+      0.0
+    ],
+    "last_100ms_rms": 5.902394021445208e-05,
+    "ffmpeg_ebur128_summary": "Summary:\n\n  Integrated loudness:\n    I:         -20.9 LUFS\n    Threshold: -31.0 LUFS\n\n  Loudness range:\n    LRA:         4.5 LU\n    Threshold: -40.9 LUFS\n    LRA low:   -24.1 LUFS\n    LRA high:  -19.5 LUFS\n\n  True peak:\n    Peak:       -6.3 dBFS\n[out#0/null @ 000002387261f380] video:0KiB audio:3750KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:20.00 bitrate=N/A speed= 363x elapsed=0:00:00.05"
+  }
+}

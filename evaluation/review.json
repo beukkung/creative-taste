@@ -1,0 +1,85 @@
+{
+  "reviewer": "independent release review",
+  "reviewed_utc": "2026-10-15T05:53:52.029336+00:00",
+  "status": "passed_with_explicit_limits",
+  "scope": [
+    "Read actual SKILL.md and all five medium/reference guides",
+    "Read installer and its test suite; executed five existing tests successfully",
+    "Executed isolated Windows junction uninstall reproduction using temporary matching files only",
+    "Read gallery HTML/CSS/JS for semantics, comparison, storage and export behavior",
+    "Read README, protocol, baseline, results, runtime report and both raw transfer-decision JSON files",
+    "Inspected demo source path/dependency routing and license/attribution manifests"
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "priority": "P1",
+      "file": "scripts/install.py",
+      "title": "Uninstall follows Windows directory junction and deletes its target files",
+      "evidence": "Python 3.11 Path.is_symlink() returned false for a real directory junction named creative-taste. uninstall(source, junction) returned removed, and the separate target/SKILL.md changed from existing to absent. All files were temporary fixtures below work/review/junction-case. digest_tree and destination.resolve containment both accept the junction target as their root.",
+      "requested_change": "Reject Windows reparse points including junctions at source/destination root and descendants before traversing/copying/deleting; add real Windows junction tests for install, check and uninstall. Preserve matching linked target content. Consider ancestor links explicitly and document permitted behavior.",
+      "release_blocker": false,
+      "original_release_blocker": true,
+      "status": "resolved",
+      "resolution_verification": "Independently reran all nine installer tests, including four real Windows junction regressions: all pass. Reran the original isolated junction probe against the fixed installer: it now raises ValueError before removal and target/SKILL.md remains present. Read stat.FILE_ATTRIBUTE_REPARSE_POINT root/descendant rejection and pre-unlink root/parent checks. Original destructive junction behavior is resolved."
+    },
+    {
+      "id": "R2",
+      "priority": "P2",
+      "file": "demos/gallery.js",
+      "title": "Export can mark previously unblinded preferences as unrevealed",
+      "evidence": "Export uses state.revealed, which is only the current toggle. Reveal then hide exports revealed_before_export:false. Startup resets revealed:false while restoring votes/orders, so reloading after reveal also loses exposure history. Vote changes have no collection-state marker.",
+      "requested_change": "Persist ever_revealed independently from current presentation state and capture whether each vote was cast before or after reveal. Export those fields honestly. Do not treat returning to hidden labels as restoring blinding.",
+      "release_blocker": false,
+      "original_release_blocker": false,
+      "status": "resolved",
+      "resolution_verification": "Read current gallery implementation: ever_revealed persists separately from current toggle, each vote records blind/unblinded collection, unknown legacy votes remain unknown, export includes all fields, startup announces prior reveal. Read browser-qa.json regression entries for blind vote exposure and reveal-hide-reload. Reviewer did not independently repeat browser interaction. Original loss of exposure history is resolved."
+    },
+    {
+      "id": "R3",
+      "priority": "P2",
+      "file": "ASSET-LICENSES.md",
+      "title": "Public redistribution permission for speech fixture remains unspecified",
+      "evidence": "The shared narration is described as generated through the public Google Translate speech endpoint and 'provided only as comparison fixtures'; no applicable term or explicit redistribution grant is cited. That speech is also embedded in mix.wav and mix-preview.mp3 in both conditions. This review did not independently establish the service's permission.",
+      "requested_change": "Establish and cite applicable permission for all redistributed speech-containing assets, or regenerate the shared fixture using owned/licensed speech and rerender both mixes/previews. Do not rely on the fixture label itself as permission.",
+      "release_blocker": false,
+      "original_release_blocker": true,
+      "status": "resolved",
+      "resolution_verification": "Read local eSpeak formant generator and revised license/engine separation. Independently matched distributed narration WAV SHA-256 to provenance and input-lock, matched stripped original text hash to provenance, validated 960000 stereo PCM16 frames at 48kHz, verified every current input-lock hash, and confirmed after audio-checks references the new narration hash. No engine binary found in package. Local original-text synthesis replaces the service-dependent fixture, resolving the identified redistribution-permission blocker. Generator execution and GPL interpretation were not independently audited."
+    }
+  ],
+  "positive_observations": [
+    "Skill has bounded practical scope, user aesthetic precedence, brief-specific hierarchy, real export inspection and honest unavailable-tool handling.",
+    "Reference routing uses source/media first and REA only for relevant shipped-app uncertainty; it treats reference metadata as untrusted.",
+    "Both raw holdout decision sets are competent. Results correctly decline to claim clear behavioral gain; neither decision-only set demonstrates rendered quality.",
+    "Gallery randomizes sides and uses semantic controls, focus styles, skip link, live status, reduced motion and localStorage/Blob export. Static JS contains no vote transmission route.",
+    "Sources and shared inputs are present with relative primary asset paths. Cross-platform font replacement remains manual and is disclosed.",
+    "Footage author, title, source, CC BY-SA link and modifications are credited in the package manifest; MIT excludes third-party imagery/adaptations.",
+    "Results disclose unmatched video repair budgets, input-lock timing, inherited model uncertainty, unavailable subjective listening and pending ZCode activation. No statistical improvement is asserted."
+  ],
+  "unresolved_limits": [
+    "No independent continuous audiovisual playback or subjective listening was performed by this reviewer.",
+    "No browser runtime interaction, assistive technology or visual contrast audit was performed by this reviewer; parent browser QA is separate.",
+    "No full clean-environment rerender or bit-for-bit export reproducibility test was run.",
+    "External license terms and Commons source metadata were not independently fetched in this review.",
+    "Runtime activation records are read evidence; this reviewer did not repeat Codex or ZCode launches.",
+    "Browser QA regression entries are parent-produced evidence; final browser run may update after this recheck. The original three findings have been independently rechecked to the extent stated above."
+  ],
+  "temporary_test": "work/review/junction_probe.py",
+  "checked_scope_honesty": "No preference scores or quality gains assigned. Existing installer tests passing does not override the junction failure.",
+  "rechecked_utc": "2026-10-15T06:04:44.187572+00:00",
+  "recheck_scope": [
+    "Read current installer/test suite, gallery script, speech generator, asset license manifest, input-lock change history, narration provenance, reproducibility report and gallery regression entries",
+    "Executed nine installer tests and independently repeated the original junction reproduction against repaired code",
+    "Independently computed current narration/text/input-lock hashes and inspected WAV parameters; scanned for bundled engine binaries"
+  ],
+  "remaining_release_blockers": [],
+  "remaining_observations": [],
+  "resolved_clarifications": [
+    {
+      "file": "evaluation/reproducibility.json",
+      "status": "resolved",
+      "verification": "Reopened updated report. All 12 current file entries report matches_published:true; independently recomputed SHA-256 for every actual distributed file and matched recorded hashes. Historical comparisons remain separately named matched_previous_export_before_integration. This confirms current-file integrity/report clarity; reviewer did not rerun production renderers."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creative Taste"
+  short_description: "Intentional craft across interfaces, sound and film"
+  default_prompt: "Use $creative-taste to give this creative brief a clear direction, produce the work, and inspect the actual result."
+policy:
+  allow_implicit_invocation: true

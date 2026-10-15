@@ -1,0 +1,132 @@
+{
+  "created_utc": "2026-10-15T06:02:07.180093+00:00",
+  "music_note": "Original music.wav byte-identical; mixed speech fixtures rebuilt with locally synthesized eSpeak Thai at matched phrase windows. Previous service speech is not published. Worker-stage observations remain in run logs.",
+  "runs": [
+    {
+      "domain": "music",
+      "condition": "before",
+      "exit_code": 0,
+      "elapsed_seconds": 3.314,
+      "files": {
+        "music.wav": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "e2c141ac035b6430066ea2b1cb903edb0df1f1d9737847bec055751b09cf01f1"
+        },
+        "mix.wav": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": false,
+          "sha256": "2c539883f4e0ba8bf9650ac3702a053e7db7e10757250a21928cf3c4df7c6e79"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "domain": "music",
+      "condition": "after",
+      "exit_code": 0,
+      "elapsed_seconds": 4.133,
+      "files": {
+        "music.wav": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "09c3378fe235ac88ae2ff352e3f5f6b092b395eb709b5493158403dd67309a0b"
+        },
+        "mix.wav": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": false,
+          "sha256": "63811ec6ba42cc58e0fa8b6850baf2d85634ae6999f6ca479c20306818204090"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "domain": "motion",
+      "condition": "before",
+      "exit_code": 0,
+      "elapsed_seconds": 1.751,
+      "files": {
+        "video.mp4": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "1e7283211e641693dd62c0490861a73a4f8717e73fba510978a735f3c95c28e3"
+        },
+        "poster.jpg": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "a044cec9451481ac67fb44a803984901664337f557d7a8a2de4d7ab77d9e6425"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "domain": "motion",
+      "condition": "after",
+      "exit_code": 0,
+      "elapsed_seconds": 1.687,
+      "files": {
+        "video.mp4": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "a015bda770365d5651aac49eae049f80acb91b8614e7cabacd4bc86112c4d7b7"
+        },
+        "poster.jpg": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "336bf511cd242314c73801af5a22b1bd61a6a376740e2e1dd4525948660ca603"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "domain": "video",
+      "condition": "before",
+      "exit_code": 0,
+      "elapsed_seconds": 9.761,
+      "files": {
+        "video.mp4": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "9e4b94602f230ef8077ba55b8f50dc0c703c56d502142c68381216c01a66ea60"
+        },
+        "poster.jpg": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "4aee9ae9cdbea7af25aa01738d99ecf6d557ec5f3ced3522a5ee400f1e6cb469"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "domain": "video",
+      "condition": "after",
+      "exit_code": 0,
+      "elapsed_seconds": 3.869,
+      "files": {
+        "video.mp4": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "b7e1e312f539bfa1d311caa31445a2633ac6422778488a9bbb2f495b3a0af908"
+        },
+        "poster.jpg": {
+          "recreated": true,
+          "matches_published": true,
+          "matched_previous_export_before_integration": true,
+          "sha256": "44c72c89f5570106047c2419bb511c439564238b9f8b9a302c96caf14712098c"
+        }
+      },
+      "stderr": ""
+    }
+  ]
+}

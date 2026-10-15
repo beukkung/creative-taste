@@ -1,0 +1,2056 @@
+{
+  "verified_utc": "2026-10-15T06:06:45.882673+00:00",
+  "passed": true,
+  "check_count": 397,
+  "failures": [],
+  "media": [
+    {
+      "path": "demos/music/before/music.wav",
+      "rate": 48000,
+      "channels": 2,
+      "width": 2,
+      "frames": 960000,
+      "sample_peak": 0.47027587890625,
+      "clipped_samples": 0
+    },
+    {
+      "path": "demos/music/before/mix.wav",
+      "rate": 48000,
+      "channels": 2,
+      "width": 2,
+      "frames": 960000,
+      "sample_peak": 0.70361328125,
+      "clipped_samples": 0
+    },
+    {
+      "path": "demos/music/after/music.wav",
+      "rate": 48000,
+      "channels": 2,
+      "width": 2,
+      "frames": 960000,
+      "sample_peak": 0.62310791015625,
+      "clipped_samples": 0
+    },
+    {
+      "path": "demos/music/after/mix.wav",
+      "rate": 48000,
+      "channels": 2,
+      "width": 2,
+      "frames": 960000,
+      "sample_peak": 0.485870361328125,
+      "clipped_samples": 0
+    },
+    {
+      "path": "demos/motion/before/video.mp4",
+      "seconds": 8.0,
+      "frames": 192,
+      "full_decode": true
+    },
+    {
+      "path": "demos/motion/after/video.mp4",
+      "seconds": 8.0,
+      "frames": 192,
+      "full_decode": true
+    },
+    {
+      "path": "demos/video/before/video.mp4",
+      "seconds": 20.0,
+      "frames": 480,
+      "full_decode": true
+    },
+    {
+      "path": "demos/video/after/video.mp4",
+      "seconds": 20.0,
+      "frames": 480,
+      "full_decode": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "skill frontmatter/name",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ZCode description size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ZCode body size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: evaluation/briefs/frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: evaluation/briefs/motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: evaluation/briefs/music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: evaluation/briefs/video.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/coffee-01.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/coffee-02.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/coffee-03.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/coffee-04.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/coffee-source.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/narration.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input unchanged: demos/assets/narration.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "ASSET-LICENSES.md: scripts/make_narration.py"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "ASSET-LICENSES.md: evaluation/narration-provenance.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/index.html"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/before/index.html"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/before/desktop.png"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/before/mobile.png"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/after/index.html"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/after/desktop.png"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/after/mobile.png"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/briefs/frontend.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/music/before/music.wav"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/music/before/mix.wav"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/music/after/music.wav"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/music/after/mix.wav"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/briefs/music.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/motion/before/video.mp4"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/motion/after/video.mp4"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/briefs/motion.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/video/before/video.mp4"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/video/after/video.mp4"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/briefs/video.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/before/desktop.png"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: demos/frontend/after/desktop.png"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/RUNTIME.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: skills/creative-taste/references/reference-analysis.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/reproducibility.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/narration-provenance.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/PROTOCOL.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/BASELINE.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/RESULTS.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/holdouts.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: evaluation/runs/summary.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: LICENSE"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "README.md: ASSET-LICENSES.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: preview-loudness.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: runs/transfer-control.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: runs/transfer-treated.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: PROTOCOL.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: runs/summary.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: input-lock.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: technical-checks.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: browser-qa.json"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "evaluation/RESULTS.md: RUNTIME.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "skills/creative-taste/SKILL.md: references/reference-analysis.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "skills/creative-taste/SKILL.md: references/frontend.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "skills/creative-taste/SKILL.md: references/music.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "skills/creative-taste/SKILL.md: references/motion.md"
+    },
+    {
+      "check": "markdown link",
+      "passed": true,
+      "detail": "skills/creative-taste/SKILL.md: references/video.md"
+    },
+    {
+      "check": "demo file: demos\\frontend\\before\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\before\\desktop.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\before\\mobile.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\after\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\after\\desktop.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\after\\mobile.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\frontend\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\music-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\mix-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PCM format: demos/music/before/music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no clipped PCM samples: demos/music/before/music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PCM format: demos/music/before/mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no clipped PCM samples: demos/music/before/mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\music-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\mix-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\music\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PCM format: demos/music/after/music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no clipped PCM samples: demos/music/after/music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PCM format: demos/music/after/mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no clipped PCM samples: demos/music/after/mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\before\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video format: demos\\motion\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video duration: demos\\motion\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "audio stream count: demos\\motion\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complete decode: demos\\motion\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\after\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\motion\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video format: demos\\motion\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video duration: demos\\motion\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "audio stream count: demos\\motion\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complete decode: demos\\motion\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\before\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video format: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video duration: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "audio stream count: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video audio format: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complete decode: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\after\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "demo file: demos\\video\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video format: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video duration: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "audio stream count: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "video audio format: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complete decode: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matched loudness: demos/music/before/music-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matched loudness: demos/music/before/mix-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matched loudness: demos/music/after/music-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matched loudness: demos/music/after/mix-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: .gitattributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: .gitignore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: ASSET-LICENSES.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: ASSET-LICENSES.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: ASSET-LICENSES.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: LICENSE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\gallery-desktop.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\gallery-mobile.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\gallery.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\gallery.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\gallery.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\gallery.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\gallery.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\gallery.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\coffee-01.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\coffee-02.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\coffee-03.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\coffee-04.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\coffee-source.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\narration.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\assets\\narration.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\after\\checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\after\\checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\desktop-full.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\desktop.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\after\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\after\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\mobile-full.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\mobile.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\before\\checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\before\\checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\desktop-full.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\desktop.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\before\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\before\\index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\mobile-full.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\mobile.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\frontend\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\frontend\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\frontend\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\probe.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\after\\probe.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\after\\probe.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\render.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\after\\render.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\after\\render.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\verification-contact.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\motion\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\motion\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\text-crop.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\verification.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\motion\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\audio-checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\after\\audio-checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\after\\audio-checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\after\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\after\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\mix-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\music-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\audio_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\before\\audio_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\before\\audio_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\before\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\before\\compose.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\mix-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\mix.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\music-preview.mp3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\music.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\music\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\music\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\music\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\crop-contact.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\after\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\last-frame.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\probe.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\after\\probe.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\after\\probe.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\render.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\after\\render.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\after\\render.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\after\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\sound-bed.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\source-contact.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\source-detail.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\after\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\verification-contact.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\after\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\before\\decisions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\end-inspect.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\poster.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\before\\run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\sound-bed.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\source-detail.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\source-sheet.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: demos\\video\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: demos\\video\\before\\source.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\text-crop.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\verification.jpg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: demos\\video\\before\\video.mp4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\BASELINE.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\BASELINE.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\BASELINE.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\browser-qa.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\browser-qa.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\browser-qa.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\contrast-qa.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\contrast-qa.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\contrast-qa.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\holdouts.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\holdouts.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\holdouts.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\input-lock.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\input-lock.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\input-lock.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\narration-provenance.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\narration-provenance.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\narration-provenance.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\preview-loudness.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\preview-loudness.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\preview-loudness.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\PROTOCOL.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\PROTOCOL.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\PROTOCOL.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\reproducibility.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\reproducibility.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\reproducibility.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\RESULTS.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\RESULTS.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\RESULTS.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\review.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\review.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\review.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\RUNTIME.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\RUNTIME.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\RUNTIME.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\technical-checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\technical-checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\technical-checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\briefs\\frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\briefs\\frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\briefs\\frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\briefs\\motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\briefs\\motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\briefs\\motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\briefs\\music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\briefs\\music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\briefs\\music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\briefs\\video.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\briefs\\video.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\briefs\\video.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\runs\\codex-activation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\runs\\codex-activation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\runs\\codex-activation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\runs\\summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\runs\\summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\runs\\summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\runs\\transfer-control.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\runs\\transfer-control.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\runs\\transfer-control.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: evaluation\\runs\\transfer-treated.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: evaluation\\runs\\transfer-treated.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: evaluation\\runs\\transfer-treated.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: scripts\\install.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: scripts\\install.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: scripts\\install.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: scripts\\make_narration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: scripts\\make_narration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: scripts\\make_narration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: scripts\\prepare_previews.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: scripts\\prepare_previews.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: scripts\\prepare_previews.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: scripts\\test_install.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: scripts\\test_install.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: scripts\\test_install.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: scripts\\verify.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: scripts\\verify.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: scripts\\verify.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\SKILL.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\SKILL.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\SKILL.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\agents\\openai.yaml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\agents\\openai.yaml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\agents\\openai.yaml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\references\\frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\references\\frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\references\\frontend.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\references\\motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\references\\motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\references\\motion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\references\\music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\references\\music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\references\\music.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\references\\reference-analysis.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\references\\reference-analysis.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\references\\reference-analysis.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GitHub file limit: skills\\creative-taste\\references\\video.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no token pattern: skills\\creative-taste\\references\\video.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no private user path: skills\\creative-taste\\references\\video.md",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "perceptual_scope": "File/format/decode checks only. See browser-qa.json for real playback functionality; subjective listening and owner preference remain separate."
+}

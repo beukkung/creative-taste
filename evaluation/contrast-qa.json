@@ -1,0 +1,2243 @@
+{
+  "scope": "Computed opaque text/background pairs at desktop; image/gradient backgrounds flagged for visual review, not automatically passed",
+  "reports": [
+    {
+      "route": "/demos/",
+      "checks": [
+        {
+          "text": "ข้ามไปดูผลงาน",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "16px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "creativetaste↗",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "29px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "taste",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "29px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "FIELD STUDY / 001",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "11px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "GitHub ↗",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "13px",
+          "ratio": 13.63,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "FOUR MEDIA. TWO APPROACHES.",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "11px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "รสนิยมที่ดีขึ้นควรเห็นและได้ยินได้.",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "66px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "และได้ยินได้.",
+          "foreground": "rgb(101, 126, 84)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "66px",
+          "ratio": 4.15,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "โจทย์เดียวกัน วัตถุดิบเดียวกัน ผลงานสองบริบทลองเลือกชิ้นที่ชอบ ก่อนดูว",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "16px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ABOUT THIS COMPARISON",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "11px",
+          "ratio": 13.63,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "FrontendMusicMotion graphicsVideo",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "25px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "Before ทำเต็มความสามารถตามปกติAfter เพิ่ม creative-tasteไม่มีผู้ชนะที่",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "11px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กำลังแสดงแบบ A/B ซ่อนเงื่อนไข",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 13.63,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เปิดเฉลย Before / After",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            24,
+            43,
+            44
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "บันทึกผลที่เลือก ↓",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 13.63,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "01Frontend",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "31px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "01",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "10px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "คาเฟ่ไทย · หน้าเว็บ responsive",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เปิดหน้าเว็บ A ↗",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ภาพ Mobile",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เปิดหน้าเว็บ B ↗",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ภาพ Mobile",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชอบชิ้นไหนมากกว่า?",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "พอ ๆ กัน",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "02Music",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "31px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "02",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "10px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เพลงรองเสียงบรรยาย · 20 วินาที",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดาวน์โหลด A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดาวน์โหลด B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ฟังพร้อมเสียงบรรยายเดียวกัน",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 13.63,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชอบชิ้นไหนมากกว่า?",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "พอ ๆ กัน",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "03Motion graphics",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "31px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "03",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "10px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Kinetic typography ภาษาไทย · 8 วินาที",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดาวน์โหลด A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดาวน์โหลด B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชอบชิ้นไหนมากกว่า?",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "พอ ๆ กัน",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "04Video",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "31px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "04",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "10px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Coffee ritual · แนวตั้ง 20 วินาที",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดาวน์โหลด A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เงื่อนไขถูกซ่อน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 6,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดาวน์โหลด B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "11px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชอบชิ้นไหนมากกว่า?",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "12px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น A",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชิ้น B",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "พอ ๆ กัน",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "font_size": "12px",
+          "ratio": 14.78,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "สิ่งที่การทดลองนี้บอกได้",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "25px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "นี่คือผลงานตัวอย่างสี่คู่จากบริบทใหม่ที่แยกจากกัน ใช้ brief, assets แล",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "13px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ดูเงื่อนไขจริงใน protocol, ผลตรวจและข้อสังเกต และ บันทึกการทำงาน ความช",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "13px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "protocol",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "13px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ผลตรวจและข้อสังเกต",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "13px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "บันทึกการทำงาน",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "13px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "creativetaste",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "29px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "taste",
+          "foreground": "rgb(24, 43, 44)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "29px",
+          "ratio": 13.63,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "Original skill & code: MIT · Coffee imagery / adapted edits: CC BY-SA ",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "11px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เครดิตและสิทธิ์ของ assets",
+          "foreground": "rgb(87, 102, 102)",
+          "background": [
+            245,
+            246,
+            243
+          ],
+          "font_size": "11px",
+          "ratio": 5.53,
+          "required": 4.5,
+          "passed": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "route": "/demos/frontend/before/index.html",
+      "checks": [
+        {
+          "text": "ข้ามไปเนื้อหา",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            41,
+            36,
+            44
+          ],
+          "font_size": "16px",
+          "ratio": 15.18,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชงช้าCHONG CHA",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "27px",
+          "ratio": 14.42,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "CHONG CHA",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "9px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ช่วงเวลาชงช้า",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "14px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เมนูกาแฟ",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "14px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เวลาเปิดร้าน",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "14px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กาแฟดี",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "82.08px",
+          "ratio": 12.22,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "ไม่ต้องรีบ.",
+          "foreground": "rgb(112, 103, 120)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "82.08px",
+          "ratio": 4.33,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "วางเรื่องวุ่น ๆ ไว้สักครู่แล้วให้เวลากับกาแฟตรงหน้า",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "17px",
+          "ratio": 12.22,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เลือกกาแฟสักแก้ว",
+          "foreground": "rgb(250, 249, 246)",
+          "background": [
+            41,
+            36,
+            44
+          ],
+          "font_size": "14px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "SLOW BAR & ESPRESSO",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "11px",
+          "ratio": 12.22,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A little pause.",
+          "manual_background_review": true,
+          "reason": "Absolutely positioned text over a photograph; nearest opaque ancestor is not its actual backdrop"
+        },
+        {
+          "text": "CHONG CHA",
+          "manual_background_review": true,
+          "reason": "Absolutely positioned text over a photograph; nearest opaque ancestor is not its actual backdrop"
+        },
+        {
+          "text": "กาแฟหนึ่งแก้วกับเวลาที่เป็นของคุณ",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "18px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Take your time.We'll take ours.",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "24px",
+          "ratio": 5.66,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "THE COFFEE MENU",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "12px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "วันนี้ อยากดื่มแบบไหน",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "39px",
+          "ratio": 14.42,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "เอสเปรสโซ หรือกาแฟดริปเลือกแก้วที่เข้ากับจังหวะของวันนี้",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "15px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "อเมริกาโน",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "20px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "AMERICANO",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "12px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "80บาท",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "30px",
+          "ratio": 14.42,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "บาท",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "13px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ลาเต้",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "20px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "LATTE",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "12px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "95บาท",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "30px",
+          "ratio": 14.42,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "บาท",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "13px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กาแฟดริป",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "20px",
+          "ratio": 14.42,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "POUR OVER",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "12px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "120บาท",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "30px",
+          "ratio": 14.42,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "บาท",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "13px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "THE ART OF TAKING IT SLOW",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "10px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชงช้า",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "10px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A MOMENT TO YOURSELF",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "16px",
+          "ratio": 4.79,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "บางช่วงเวลาค่อย ๆ ผ่านไปก็ดี",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "39px",
+          "ratio": 12.22,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "เสียงน้ำร้อน กลิ่นกาแฟ และช่วงพักเล็ก ๆชวนคุณกลับมาอยู่กับปัจจุบัน",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "16px",
+          "ratio": 4.79,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "หยุดพักกับช่วงเวลาตรงหน้า",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "12px",
+          "ratio": 4.79,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ค่อย ๆ ชง ค่อย ๆ ใช้เวลา",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            232,
+            229,
+            240
+          ],
+          "font_size": "12px",
+          "ratio": 4.79,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "SEE YOU AT CHONG CHA",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "15px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เว้นที่ให้เวลาพักสักหน่อย",
+          "foreground": "rgb(41, 36, 44)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "31px",
+          "ratio": 14.42,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "Slow bar & espresso · ชงช้า",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "15px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เปิดทุกวัน",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "13px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "© ชงช้า / CHONG CHAข้อมูลธุรกิจทั้งหมดเป็นเนื้อหาสาธิตสำหรับคาเฟ่สมมติ",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "11px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กลับด้านบน",
+          "foreground": "rgb(105, 97, 108)",
+          "background": [
+            250,
+            249,
+            246
+          ],
+          "font_size": "11px",
+          "ratio": 5.66,
+          "required": 4.5,
+          "passed": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "route": "/demos/frontend/after/index.html",
+      "checks": [
+        {
+          "text": "ข้ามไปเนื้อหา",
+          "foreground": "rgb(255, 255, 255)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "16px",
+          "ratio": 11.72,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชงช้าCHONG CHA",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "31px",
+          "ratio": 10.08,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "CHONG CHA",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "10px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เรื่องของชงช้า",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "14px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เมนูกาแฟ",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "14px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เวลาเปิด",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "14px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "DAILY   08:00–17:00",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "12px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "A little pause, a good coffee.",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "11px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กาแฟดี",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "90.72px",
+          "ratio": 10.08,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "ไม่ต้องรีบ",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "90.72px",
+          "ratio": 10.08,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "วางความวุ่นวายไว้สักครู่แล้วให้เวลากับกาแฟตรงหน้า",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "17px",
+          "ratio": 5.13,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "เลือกกาแฟของคุณ",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "14px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "รู้จักชงช้า",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "13px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Ⅱ",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "26px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "พักสักแก้ว",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "10px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "CHONG CHA · COFFEE MOMENTS",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "10px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชงช้า ค่อย ๆ จิบ",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            233,
+            239,
+            240
+          ],
+          "font_size": "10px",
+          "ratio": 10.08,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Room for a slower moment",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "11px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ในวันที่ทุกอย่างเร็วขอกาแฟสักแก้วที่ชงช้า",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "39px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "จะเป็นจังหวะของ slow barหรือกาแฟแก้วคุ้นเคยจาก espressoเลือกแบบที่ชอบ ",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "16px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ค่อย ๆ ชง ค่อย ๆ จิบ",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "12px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "จังหวะที่คุ้นเคย",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "12px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ก่อนกาแฟจะเป็นกาแฟหนึ่งแก้ว",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "11px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ระหว่างรอ ลองพักสายตาสักนิด",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "11px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Something to sip",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "11px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "วันนี้อยากจิบอะไรดี",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "42px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "กาแฟแก้วของคุณ ไม่ต้องรีบเลือก",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "14px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "อเมริกาโน",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "22px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Americano",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "13px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "80บาท",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "32px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "บาท",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "12px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ลาเต้",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "22px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Latte",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "13px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "95บาท",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "32px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "บาท",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "12px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กาแฟดริป",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "22px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Pour over",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "13px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "120บาท",
+          "foreground": "rgb(252, 251, 247)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "32px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "บาท",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "12px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชงช้า / CHONG CHA   ·   SLOW BAR & ESPRESSO",
+          "foreground": "rgb(217, 229, 223)",
+          "background": [
+            41,
+            60,
+            53
+          ],
+          "font_size": "11px",
+          "ratio": 9.05,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Make time for coffee",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "11px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "วันไหนก็แวะมาพักกับกาแฟสักแก้ว",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "37px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "08:00–17:00",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "36px",
+          "ratio": 11.32,
+          "required": 3,
+          "passed": true
+        },
+        {
+          "text": "เปิดทุกวันMonday–Sunday",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "13px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "Monday–Sunday",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "13px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ชงช้าCHONG CHA",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "20px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "CHONG CHA",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "10px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "ข้อมูลธุรกิจในหน้านี้เป็นเนื้อหาสาธิตของร้านสมมติเปิดทุกวัน 08:00–17:0",
+          "foreground": "rgb(88, 103, 96)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "11px",
+          "ratio": 5.76,
+          "required": 4.5,
+          "passed": true
+        },
+        {
+          "text": "กลับด้านบน",
+          "foreground": "rgb(41, 60, 53)",
+          "background": [
+            252,
+            251,
+            247
+          ],
+          "font_size": "12px",
+          "ratio": 11.32,
+          "required": 4.5,
+          "passed": true
+        }
+      ],
+      "failures": []
+    }
+  ]
+}

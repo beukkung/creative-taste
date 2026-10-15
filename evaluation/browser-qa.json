@@ -1,0 +1,334 @@
+{
+  "created_utc": "2026-10-15T06:02:46.719Z",
+  "browser": "Chromium / installed Playwright",
+  "routing": "Browser plugin not available; regular Playwright used",
+  "checks": [
+    {
+      "name": "gallery title",
+      "passed": true
+    },
+    {
+      "name": "four pairs/eight pieces",
+      "passed": true
+    },
+    {
+      "name": "blind labels",
+      "passed": true
+    },
+    {
+      "name": "source links hidden before reveal",
+      "passed": true
+    },
+    {
+      "name": "gallery no horizontal overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "gallery no horizontal overflow 720",
+      "passed": true
+    },
+    {
+      "name": "gallery no horizontal overflow 390",
+      "passed": true
+    },
+    {
+      "name": "gallery no horizontal overflow 320",
+      "passed": true
+    },
+    {
+      "name": "vote and assignments persist",
+      "passed": true
+    },
+    {
+      "name": "reveal condition labels",
+      "passed": true
+    },
+    {
+      "name": "source links visible after reveal",
+      "passed": true
+    },
+    {
+      "name": "export contains real selection",
+      "passed": true
+    },
+    {
+      "name": "blind vote retains collection exposure",
+      "passed": true
+    },
+    {
+      "name": "reveal-hide-reload preserves exposure history",
+      "passed": true
+    },
+    {
+      "name": "same narration matched previews",
+      "passed": true
+    },
+    {
+      "name": "actual browser playback reaches end 0",
+      "passed": true,
+      "detail": {
+        "duration": 20,
+        "ended": true,
+        "readyState": 4,
+        "error": null,
+        "advanced": true
+      }
+    },
+    {
+      "name": "actual browser playback reaches end 1",
+      "passed": true,
+      "detail": {
+        "duration": 20,
+        "ended": true,
+        "readyState": 4,
+        "error": null,
+        "advanced": true
+      }
+    },
+    {
+      "name": "actual browser playback reaches end 2",
+      "passed": true,
+      "detail": {
+        "duration": 8,
+        "ended": true,
+        "readyState": 4,
+        "error": null,
+        "advanced": true
+      }
+    },
+    {
+      "name": "actual browser playback reaches end 3",
+      "passed": true,
+      "detail": {
+        "duration": 8,
+        "ended": true,
+        "readyState": 4,
+        "error": null,
+        "advanced": true
+      }
+    },
+    {
+      "name": "actual browser playback reaches end 4",
+      "passed": true,
+      "detail": {
+        "duration": 20,
+        "ended": true,
+        "readyState": 4,
+        "error": null,
+        "advanced": true
+      }
+    },
+    {
+      "name": "actual browser playback reaches end 5",
+      "passed": true,
+      "detail": {
+        "duration": 20,
+        "ended": true,
+        "readyState": 4,
+        "error": null,
+        "advanced": true
+      }
+    },
+    {
+      "name": "gallery reduced motion",
+      "passed": true
+    },
+    {
+      "name": "before frontend overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "before frontend overflow 720",
+      "passed": true
+    },
+    {
+      "name": "before frontend overflow 390",
+      "passed": true
+    },
+    {
+      "name": "before frontend overflow 320",
+      "passed": true
+    },
+    {
+      "name": "before photos loaded",
+      "passed": true
+    },
+    {
+      "name": "before keyboard focus",
+      "passed": true,
+      "detail": {
+        "tag": "A",
+        "text": "ข้ามไปเนื้อหา",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "before skip target",
+      "passed": true
+    },
+    {
+      "name": "before menu navigation",
+      "passed": true
+    },
+    {
+      "name": "before reduced motion",
+      "passed": true
+    },
+    {
+      "name": "after frontend overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "after frontend overflow 720",
+      "passed": true
+    },
+    {
+      "name": "after frontend overflow 390",
+      "passed": true
+    },
+    {
+      "name": "after frontend overflow 320",
+      "passed": true
+    },
+    {
+      "name": "after photos loaded",
+      "passed": true
+    },
+    {
+      "name": "after keyboard focus",
+      "passed": true,
+      "detail": {
+        "tag": "A",
+        "text": "ข้ามไปเนื้อหา",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "after skip target",
+      "passed": true
+    },
+    {
+      "name": "after menu navigation",
+      "passed": true
+    },
+    {
+      "name": "after reduced motion",
+      "passed": true
+    },
+    {
+      "name": "file URL gallery works",
+      "passed": true
+    },
+    {
+      "name": "no console/page errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no unexpected failed requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "visual_scope": "Screenshots and sampled video frames inspected separately. Browser playback proves decode/control functionality, not subjective listening.",
+  "expected_cancelled_media_requests": [
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    }
+  ],
+  "passed": true,
+  "check_count": 43
+}

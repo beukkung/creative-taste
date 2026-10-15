@@ -1,0 +1,9 @@
+{
+  "skill_name": "creative-taste",
+  "loaded_path": "~/.agents/skills/creative-taste/SKILL.md",
+  "scope_phrase": "do not turn a caption fix into a redesign.",
+  "relevant_reference_filename": "references/video.md",
+  "proposed_action": "Improve subtitle contrast, readable grouping, safe placement and hold duration only; preserve meaning, footage order and audio. No edits performed.",
+  "actually_rendered_or_listened": false,
+  "evidence": "Fresh native Codex CLI session final JSON; read commands verified separately from event stream. Personal absolute paths redacted."
+}

@@ -1,0 +1,109 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "horizontal_overflow": false,
+    "images": [
+      {
+        "src": "../../assets/coffee-01.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-03.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-02.jpg",
+        "loaded": true
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontal_overflow": false,
+    "images": [
+      {
+        "src": "../../assets/coffee-01.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-03.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-02.jpg",
+        "loaded": true
+      }
+    ]
+  },
+  "narrow": {
+    "viewport": {
+      "width": 320,
+      "height": 844
+    },
+    "horizontal_overflow": false,
+    "images": [
+      {
+        "src": "../../assets/coffee-01.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-03.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-02.jpg",
+        "loaded": true
+      }
+    ]
+  },
+  "zoom-equivalent": {
+    "viewport": {
+      "width": 720,
+      "height": 500
+    },
+    "horizontal_overflow": false,
+    "images": [
+      {
+        "src": "../../assets/coffee-01.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-03.jpg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/coffee-02.jpg",
+        "loaded": true
+      }
+    ]
+  },
+  "menu_anchor": true,
+  "hours_anchor": true,
+  "keyboard_skip_focus": true,
+  "skip_destination": true,
+  "reduced_motion": "auto",
+  "page_errors": [],
+  "all_internal_anchors_valid": true
+}

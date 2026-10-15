@@ -1,0 +1,38 @@
+{
+  "repair_passes": 1,
+  "frames": 480,
+  "duration_seconds": 20,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "skills_read": [
+    "superpowers:using-superpowers (subagent exemption)",
+    "remotion:remotion-markup (not applied; Python brief)"
+  ],
+  "checks": [
+    "HarfBuzz Thai shaping with FreeType rasterization",
+    "480 deterministic frames encoded",
+    "Inspected own contact sheet, full-size poster, and text crop",
+    "FFprobe verified codec, pixel format, dimensions, frame rate, frame count, exact duration",
+    "Full FFmpeg audiovisual decode completed without errors; AAC stereo 48kHz"
+  ],
+  "audio": {
+    "sample_peak": 0.08470199296796613,
+    "rms": 0.022460955179947107,
+    "sample_rate": 48000,
+    "provenance": "original procedural oscillators and seeded filtered noise"
+  },
+  "playback_status": "not played; sampled frames inspected separately",
+  "listening_status": "not listened; procedural audio measured numerically",
+  "render_started_utc": "2026-10-15T05:36:38.106542+00:00",
+  "render_finished_utc": "2026-10-15T05:36:47.854690+00:00",
+  "render_elapsed_seconds": 9.75,
+  "started_utc": null,
+  "earliest_recorded_task_artifact_utc": "2026-10-15T05:31:46.386862+00:00",
+  "finished_utc": "2026-10-15T05:37:45.256629+00:00",
+  "elapsed_seconds": 358.87,
+  "elapsed_is_lower_bound": true,
+  "elapsed_scope": "Lower bound from shared task first contact-sheet creation through final verification and documentation. Exact task start before first artifact is unknown. Both briefs were produced in the same working session."
+}

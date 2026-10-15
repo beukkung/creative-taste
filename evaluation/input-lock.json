@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-15T05:36:37.249057+00:00",
+  "files": {
+    "evaluation/briefs/frontend.md": "3950d84c69e2113c005aa2f006f439d04e66735ca473ebd152ec0b443dce1d49",
+    "evaluation/briefs/motion.md": "8151403ed8ffd3fc1f5fccf844e63fbaa9063ec0aca7953a8a8bf836256231cd",
+    "evaluation/briefs/music.md": "49dcb2b2b8a9c45e07bae99efe3cbe8bd8ccf74e65382b1dba6fac63becfd9f6",
+    "evaluation/briefs/video.md": "8940f1bab2d60f490cefa99d7981b7cd9a0c855958ec8c6b128d22ff204ba781",
+    "demos/assets/coffee-01.jpg": "90980dd60f1abcab20724440c4ec1e305886aeed8ea9c71f6ccb21c4fbebf076",
+    "demos/assets/coffee-02.jpg": "a0fb6bb137a84a432b9d14d7006d182372c61b3aaedac255b3c6b817e09d9973",
+    "demos/assets/coffee-03.jpg": "be882d2521b32c756b85861cf1f2ca40bf5fbefb79b2f9b17f6833b62f7baea7",
+    "demos/assets/coffee-04.jpg": "5b28ac15ba2a983fb5959963ad3bc354179a13f2e653242fce5f5d1381a3d82c",
+    "demos/assets/coffee-source.mp4": "47ee45f5dab1a8ea0e723aaecf7c12fabdd62aec531ec929b698a68fc4b0a1c6",
+    "demos/assets/narration.txt": "2134ca80ed1c405e5bbe2441425f63707c159ec91ccf87c577e0ece5cacf5927",
+    "demos/assets/narration.wav": "31287a1170a0b3b5638d908577f9cc3775f3329c1f0b27922180494b7a97d26b"
+  },
+  "changes": [
+    {
+      "changed_utc": "2026-10-15T06:02:07.180093+00:00",
+      "file": "demos/assets/narration.wav",
+      "old_sha256": "ff1dd1e83b5425b24590cd96f4df95e3692d9bd9908cdbeac731191616e89b17",
+      "new_sha256": "31287a1170a0b3b5638d908577f9cc3775f3329c1f0b27922180494b7a97d26b",
+      "reason": "Release review: replace service-generated speech with locally synthesized eSpeak NG; same text and matched phrase windows; rebuild both mixes without changing compositions."
+    }
+  ]
+}

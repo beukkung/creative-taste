@@ -1,0 +1,32 @@
+{
+  "engine": "eSpeak NG via espeakng-loader 0.2.4",
+  "voice": "th (formant synthesis; no prerecorded voice)",
+  "engine_library_sha256": "646d387acbc7ac2aa45e3625aa00a6835ae5d446ff8b0748298c3900b4dde258",
+  "text_sha256": "a52f2480ddc67f0577c4837198b05feebabd89305a221eb2f484e5b81eaab240",
+  "speech_sha256": "31287a1170a0b3b5638d908577f9cc3775f3329c1f0b27922180494b7a97d26b",
+  "frames": 960000,
+  "sample_rate": 48000,
+  "segments": [
+    {
+      "start": 0.0,
+      "duration": 3.4,
+      "text": "บางเช้า เราไม่จำเป็นต้องรีบไปไหน"
+    },
+    {
+      "start": 3.9,
+      "duration": 4.0,
+      "text": "แค่ค่อย ๆ เทน้ำ รอให้กลิ่นกาแฟลอยขึ้นมา"
+    },
+    {
+      "start": 8.7,
+      "duration": 2.5,
+      "text": "แล้วให้เวลาตัวเองอีกสักนิด"
+    },
+    {
+      "start": 11.6,
+      "duration": 2.6,
+      "text": "ชงช้า กาแฟดี ไม่ต้องรีบ"
+    }
+  ],
+  "license": "Original narration text and synthesized comparison fixture MIT; engine GPL-3.0, not bundled"
+}

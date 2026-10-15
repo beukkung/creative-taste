@@ -1,0 +1,122 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1430,
+      "overflow": false,
+      "images": [
+        {
+          "src": "../../assets/coffee-01.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-02.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-04.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-03.jpg",
+          "loaded": true
+        }
+      ],
+      "h1": [
+        "กาแฟดี\nไม่ต้องรีบ"
+      ],
+      "brokenAnchors": []
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 380,
+      "overflow": false,
+      "images": [
+        {
+          "src": "../../assets/coffee-01.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-02.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-04.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-03.jpg",
+          "loaded": true
+        }
+      ],
+      "h1": [
+        "กาแฟดี\nไม่ต้องรีบ"
+      ],
+      "brokenAnchors": []
+    },
+    "reflow": {
+      "width": 720,
+      "scrollWidth": 710,
+      "overflow": false,
+      "images": [
+        {
+          "src": "../../assets/coffee-01.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-02.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-04.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../assets/coffee-03.jpg",
+          "loaded": true
+        }
+      ],
+      "h1": [
+        "กาแฟดี\nไม่ต้องรีบ"
+      ],
+      "brokenAnchors": []
+    }
+  },
+  "skipFocus": {
+    "text": "ข้ามไปเนื้อหา",
+    "visible": true
+  },
+  "skipDestination": "#main",
+  "menuNavigation": {
+    "hash": "#menu",
+    "menuVisible": true
+  },
+  "reducedMotion": {
+    "matches": true,
+    "scrollBehavior": "auto"
+  },
+  "static": {
+    "lang_th": true,
+    "remote_dependencies": false,
+    "prices": [
+      {
+        "name": "Americano",
+        "baht": 80
+      },
+      {
+        "name": "Latte",
+        "baht": 95
+      },
+      {
+        "name": "Pour over",
+        "baht": 120
+      }
+    ],
+    "demo_footer_present": true,
+    "four_unique_local_assets": true,
+    "native_interactions_only": true
+  }
+}
